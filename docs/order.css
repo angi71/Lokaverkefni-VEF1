@@ -1,0 +1,39 @@
+ * {
+    box-sizing: border-box;
+}
+body {
+	max-width: 60em;
+ 	margin: 0 auto;
+
+}
+.d {
+	background-color: #344d5c; 
+}
+.c {
+	background-color: #efc84d; 
+}
+.b{
+	background-color: #4fb89e;
+}
+.a {
+	background-color: #fd5c40; 
+}
+
+.row {
+	display: flex;
+	flex-flow: row;
+
+}
+
+.box {
+	flex: 1 1 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+ 
+	height: 6em;	
+}
+
+
